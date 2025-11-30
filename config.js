@@ -1,10 +1,10 @@
 /**
- * Ultimate Music Bot - 
+ * MuseWave - 
  * 
  * @fileoverview 
  * @module ConfigurationManager
  * @version 1.0.0
- * @author GlaceYT
+ * @author MAYUKH ADHIKARY 
  */
 
 const EnvironmentVariableProcessor = require('process').env;
@@ -101,5 +101,6 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
 
