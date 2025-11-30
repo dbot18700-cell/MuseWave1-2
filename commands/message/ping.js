@@ -27,7 +27,7 @@ module.exports = {
             const seconds = uptimeSeconds % 60;
 
             const embed = new EmbedBuilder()
-                .setTitle('📡 Pong!')
+                .setTitle('📡 Ping!')
                 .setColor(0x1DB954)
                 .setDescription(
                     `• **Latency:** ${latency} ms\n` +
@@ -44,3 +44,4 @@ module.exports = {
         }
     }
 };
+
