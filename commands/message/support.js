@@ -30,7 +30,7 @@ module.exports = {
                     'Website: https://glaceyt.com'
                 )
                 .setTimestamp()
-                .setFooter({ text: 'MuseWave• Developed by MAYUKH ADHIKARY' });
+                .setFooter({ text: 'MuseWave • Developed by MAYUKH ADHIKARY' });
             
             await message.reply({ embeds: [embed] });
         } catch (error) {
@@ -39,5 +39,6 @@ module.exports = {
         }
     }
 };
+
 
 
